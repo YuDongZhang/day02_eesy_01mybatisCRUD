@@ -67,7 +67,7 @@ public class MybatisTest {
     @Test
     public void testSave(){
         User user = new User();
-        user.setUsername("mybatis saveuser");
+        user.setUsername("mybatis last saveuser");
         user.setAddress("北京市顺义区");
         user.setSex("男");
         user.setBirthday(new Date());
