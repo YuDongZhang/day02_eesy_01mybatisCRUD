@@ -44,4 +44,9 @@
         select count(id) from user;
     </select>
 
+    <!--    根据 queryVo查询用户-->
+    <select id="findUserByVo" parameterType="com.itheima.domain.QueryVo" resultType="com.itheima.domain.User">
+        select * from user where username like #{user.username};
+    </select>
+
 </mapper>
