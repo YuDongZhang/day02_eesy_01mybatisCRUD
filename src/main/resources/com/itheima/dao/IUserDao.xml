@@ -7,7 +7,7 @@
 <!--要注意里面的结果类型和参数类型-->
 
 <!--配置查询结果的列名和实体类的属性名的对应的关系 type表示实体类-->
-    <resultMap id="userMap" type="com.itheima.domain.User">
+    <resultMap id="userMap" type="useR">
     <!--主键字段的对应-->
         <id property="userId" column="id"></id>
 <!--        非主键字段的对应-->
